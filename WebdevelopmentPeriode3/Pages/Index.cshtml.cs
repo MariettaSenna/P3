@@ -32,7 +32,7 @@ namespace WebdevelopmentPeriode3.Pages
             if (LoginModel.Username == "TestUser" && LoginModel.Password == "123")
             {
                 HttpContext.Session.SetInt32("UserId", 1);
-                return RedirectToPage("Error");
+                return RedirectToPage("Ober/Overzicht");
             }
             else
             {

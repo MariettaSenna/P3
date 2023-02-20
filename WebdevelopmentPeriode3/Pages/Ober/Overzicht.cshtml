@@ -1,0 +1,53 @@
+﻿@page
+@model WebdevelopmentPeriode3.Pages.Overzicht
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<div>
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th scope="col">Overzicht</th>
+    <th scope="col">Hoeveelheid</th>
+    <th scope="col">Prijs</th>
+    <th scope="col">Totaal</th>
+  </tr>
+  </thead>
+  
+  <tbody>
+    <tr>
+      <td>Cola</td>
+      <td class="text-success"><a class="btn-sm btn-dark" style="border-radius: 50px;" href="#"><i class="fa fa-minus"></i></a> 1 <a class="btn-sm btn-dark" style="border-radius: 50px;" href="#"><i class="fa fa-plus"></i></a></td>
+      <td>$2,50</td>
+      <td>$0,00</td>
+
+    </tr>
+    <tr>
+      <td>Fanta</td>
+      <td class="text-success"><a class="btn-sm btn-dark" style="border-radius: 50px;" href="#"><i class="fa fa-minus"></i></a> 1 <a class="btn-sm btn-dark" style="border-radius: 50px;" href="#"><i class="fa fa-plus"></i></a></td>
+      <td>$2,50</td>
+      <td>$0,00</td>
+    
+    </tr>
+    <tr>
+      <td>Franzis weisbier 0.5L</td>
+      <td class="text-success"><a class="btn-sm btn-dark" style="border-radius: 50px;" href="#"><i class="fa fa-minus"></i></a> 1 <a class="btn-sm btn-dark" style="border-radius: 50px;" href="#"><i class="fa fa-plus"></i></a></td>
+      <td>$0,00</td>
+      <td>$0,00</td>
+ 
+    </tr>
+  </tbody>
+     <tfoot>
+            <tr>
+                <th scope="row"></th>
+                <td/>
+                <td/>
+                <th>$0</th>
+            </tr>
+        </tfoot>
+</table>
+<div class="col-sm-12 btn-block float-end">
+<a class="btn btn-primary float-end m-2" href="/Ober/AllesBetalen">Alles betalen</a>
+<a class="btn btn-primary float-end m-2" href="/Ober/PerPersoonBetalen">Betalen per persoon</a>
+</div>
+</div>

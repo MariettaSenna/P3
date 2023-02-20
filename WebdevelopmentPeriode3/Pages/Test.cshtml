@@ -1,0 +1,53 @@
+﻿@page
+@model WebdevelopmentPeriode3.Pages.Test
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+
+<!-- Geeft input van de gebruiker weer (Get Request)-->
+@* <form method="get"> *@
+@*     <input name="name" type="text"/> *@
+@*     <button type="submit">Verzenden</button> *@
+@* </form> *@
+@* *@
+@* <h1> Hello @Model.Name</h1> *@
+<!-- Einde (Get Request)-->
+
+
+
+@* <table class="table table-striped"> *@
+@*     <tr> *@
+@*         <td>Cola</td> *@
+@*         <td class="text-center"> *@
+@*             <a class="btn-sm btn-dark" style="border-radius: 50px;" href="#"><i class="fa fa-minus"></i></a> 1 <a class="btn-sm btn-dark" style="border-radius: 50px;" href="#"><i class="fa fa-plus"></i></a> *@
+@*         </td> *@
+@*         <td>$2,50</td> *@
+@*         <td>$0,00</td> *@
+@*     </tr> *@
+@* </table> *@
+
+<style>
+    form, .counter 
+    {
+        float:  right;
+        position: relative;
+        margin-left: 5px;
+    }
+</style>
+
+<table class="table table-striped">
+    <tr>
+        <td>Fanta</td>
+        <td class="text-center">
+        <form method="post" asp-page-handler="Increment">
+            <input type="hidden" asp-for="Counter1" value="@Model.Counter1"/>
+            <button type="Submit" class="btn-sm btn-dark fa fa-plus" style="border-radius: 50px;"></button>
+        </form> 
+        <p class="counter">@Model.Counter1</p>
+        <form method="post" asp-page-handler="Decrement">
+            <input type="hidden" asp-for="Counter1" value="@Model.Counter1"/>
+            <button type="submit" class="btn-sm btn-dark fa fa-minus" style="border-radius: 50px;"></button>
+        </form>
+        <td>Prijs per stuk: @Model.Price.ToString("C")</td>
+        <td>Eindbedrag: @((Model.Counter1 * Model.Price).ToString("C"))</td>
+    </tr>
+</table>

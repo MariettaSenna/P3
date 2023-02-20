@@ -1,0 +1,54 @@
+﻿@page
+@model WebdevelopmentPeriode3.Pages.Ober.Bestellen
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<h1>Bestellen</h1>
+<div class="row">
+<ul class="list-group col-md-3 col-sm">
+  <li class="list-group-item ">Frisdrank</li>
+  <li class="list-group-item">Bier</li>
+  <li class="list-group-item">Wijn</li>
+  <li class="list-group-item active">Koffie</li>
+  <li class="list-group-item">Thee</li>
+  <li class="list-group-item">Hapjes</li>
+</ul>
+
+<ul class="list-group col-md-3 col-sm">
+  <li class="list-group-item">Normaal <a class="btn-primary btn-sm" style="float: right; border-radius: 50px;" href="#"><i class="fa fa-plus"></i></a></li>
+  <li class="list-group-item">Cappuchino <a class="btn-primary btn-sm" style="float: right;border-radius: 50px;" href="#"><i class="fa fa-plus"></i></a></li>
+  <li class="list-group-item">Latte <a class="btn-primary btn-sm" style="float: right;border-radius: 50px;" href="#"><i class="fa fa-plus"></i></a></li>
+  <li class="list-group-item">Verkeerd <a class="btn-primary btn-sm" style="float: right;border-radius: 50px;" href="#"><i class="fa fa-plus"></i></a></li>
+</ul>
+
+<div class="col-md-6 col-xs-12">
+    <table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Product</th>
+      <th scope="col">Amount</th>
+      <th/>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td scope="row">Water</td>
+      <td class="text-success"><a class="btn-sm btn-dark" style="border-radius: 50px;" href="#"><i class="fa fa-minus"></i></a> 1 <a class="btn-sm btn-dark" style="border-radius: 50px;" href="#"><i class="fa fa-plus"></i></a></td>
+     <td> <a class="btn-sm btn-outline-dark" style="border-radius: 50px;"><i class="fa fa-trash"></i></a></td>
+
+    </tr>
+    <tr>
+      <td scope="row">Thee</td>
+      <td class="text-success"><a class="btn-sm btn-dark" style="border-radius: 50px;" href="#"><i class="fa fa-minus"></i></a> 1 <a class="btn-sm btn-dark" style="border-radius: 50px;" href="#"><i class="fa fa-plus"></i></a></td>
+      <td> <a class="btn-sm btn-outline-dark" style="border-radius: 50px;"><i class="fa fa-trash"></i></a></td>
+    </tr>
+    <tr>
+      <td scope="row">Koffie</td>
+      <td class="text-success"><a class="btn-sm btn-dark" style="border-radius: 50px;" href="#"><i class="fa fa-minus"></i></a> 1 <a class="btn-sm btn-dark" style="border-radius: 50px;" href="#"><i class="fa fa-plus"></i></a></td>
+     <td> <a class="btn-sm btn-outline-dark" style="border-radius: 50px;"><i class="fa fa-trash"></i></a></td>
+    </tr>
+  </tbody>
+</table>
+<button class="btn btn-primary" style="float:right;">Bestellen</button>
+</div>
+</div>

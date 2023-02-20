@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "akaBqH1zZANXbTtARX7ajtlriBWAJlDQsLZ/HhrG89SduPnF/9rAmJn7f1i10r2NDonyalgkSoCtMqx0PvxX9g==",
+  "dgSpecHash": "WlISDY9oOUS1N3ZfMjPYwXgPLy5EcuWoc/ekHqSNnUFfFeo77WdUnP7L6OT+fzK4pDXWIsdmQXlpiLTdUBhCqQ==",
   "success": true,
   "projectFilePath": "D:\\Business & IT 2\\Webdevelopment\\WebdevelopmentPeriode3\\WebdevelopmentPeriode3\\WebdevelopmentPeriode3.csproj",
   "expectedPackageFiles": [
@@ -31,7 +31,11 @@
     "C:\\Users\\Mariëtta\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\Mariëtta\\.nuget\\packages\\system.text.encoding.codepages\\4.4.0\\system.text.encoding.codepages.4.4.0.nupkg.sha512",
     "C:\\Users\\Mariëtta\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
-    "C:\\Users\\Mariëtta\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
+    "C:\\Users\\Mariëtta\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
+    "C:\\Users\\Mariëtta\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.14\\microsoft.netcore.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\Mariëtta\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.14\\microsoft.windowsdesktop.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\Mariëtta\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.14\\microsoft.aspnetcore.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\Mariëtta\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.14\\microsoft.netcore.app.host.win-x64.6.0.14.nupkg.sha512"
   ],
   "logs": []
 }

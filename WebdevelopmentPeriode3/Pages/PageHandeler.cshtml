@@ -1,0 +1,40 @@
+﻿@page
+@model WebdevelopmentPeriode3.Pages.PageHandeler
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+
+<!-- juiste button -->
+
+@* <form method="get"> *@
+@* <button name="action" value="decrement cola" type="submit" class="btn-sm btn-dark fa fa-minus" style="border-radius: 50px;"></button> @Model.CounterCola <button name="action" value="increment cola" type="submit" class="btn-sm btn-dark fa fa-plus" style="border-radius: 50px;"></button> *@
+@* </form> *@
+
+<h1>@Model.Counter1</h1>
+
+<form method="post" asp-page-handler="Increment">
+    <input type="hidden" asp-for="Counter1"/>
+    <input type="hidden" asp-for="Counter2"/>
+    <button type="Submit">Toevoegen</button>
+</form>
+
+<form method="post" asp-page-handler="Decrement">
+    <input type="hidden" asp-for="Counter1" value="@Model.Counter1"/>
+     <input type="hidden" asp-for="Counter2" value="@Model.Counter2"/>
+    <button type="Submit">Verwijderen</button>
+</form>
+
+
+<h1>@Model.Counter2</h1>
+
+<form method="post" asp-page-handler="IncrementCounter2">
+    <input type="hidden" asp-for="Counter1" value="@Model.Counter1"/>
+     <input type="hidden" asp-for="Counter2" value="@Model.Counter2"/>
+    <button type="Submit">Toevoegen</button>
+</form>
+
+<form method="post" asp-page-handler="DecrementCounter2">
+       <input type="hidden" asp-for="Counter1" value="@Model.Counter1"/>
+        <input type="hidden" asp-for="Counter2" value="@Model.Counter2"/>
+    <button type="Submit">Verwijderen</button>
+</form>
+

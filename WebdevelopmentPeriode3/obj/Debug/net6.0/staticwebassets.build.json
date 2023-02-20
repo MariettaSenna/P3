@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OJbZx0r5yjqr/R2lezaq/mwrkU/80K7GMATAZz/vOyE=",
+  "Hash": "DVhc4cIK7+xrwR40zF8T8KSVqxd4Rcvzl07v7CJqPyo=",
   "Source": "WebdevelopmentPeriode3",
   "BasePath": "_content/WebdevelopmentPeriode3",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Business & IT 2\\Webdevelopment\\WebdevelopmentPeriode3\\WebdevelopmentPeriode3\\wwwroot\\Images\\Senna.JPG",
+      "SourceId": "WebdevelopmentPeriode3",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Business & IT 2\\Webdevelopment\\WebdevelopmentPeriode3\\WebdevelopmentPeriode3\\wwwroot\\",
+      "BasePath": "_content/WebdevelopmentPeriode3",
+      "RelativePath": "Images/Senna.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Senna.JPG"
     },
     {
       "Identity": "D:\\Business & IT 2\\Webdevelopment\\WebdevelopmentPeriode3\\WebdevelopmentPeriode3\\wwwroot\\js\\site.js",
