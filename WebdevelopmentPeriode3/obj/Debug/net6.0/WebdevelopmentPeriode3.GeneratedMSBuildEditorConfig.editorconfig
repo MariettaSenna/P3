@@ -24,6 +24,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Business & IT 2/Webdevelopment/WebdevelopmentPeriode3/WebdevelopmentPeriode3/Pages/Ober/AllesBetalen.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2JlclxBbGxlc0JldGFsZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Business & IT 2/Webdevelopment/WebdevelopmentPeriode3/WebdevelopmentPeriode3/Pages/Ober/Bestellen.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2JlclxCZXN0ZWxsZW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -32,12 +36,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2JlclxPdmVyemljaHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Business & IT 2/Webdevelopment/WebdevelopmentPeriode3/WebdevelopmentPeriode3/Pages/Ober/PerPersoonBetalen.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT2JlclxQZXJQZXJzb29uQmV0YWxlbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Business & IT 2/Webdevelopment/WebdevelopmentPeriode3/WebdevelopmentPeriode3/Pages/PageHandeler.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZUhhbmRlbGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Business & IT 2/Webdevelopment/WebdevelopmentPeriode3/WebdevelopmentPeriode3/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Business & IT 2/Webdevelopment/WebdevelopmentPeriode3/WebdevelopmentPeriode3/Pages/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Business & IT 2/Webdevelopment/WebdevelopmentPeriode3/WebdevelopmentPeriode3/Pages/Shared/_ValidationScriptsPartial.cshtml]

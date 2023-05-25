@@ -1,0 +1,20 @@
+﻿@page
+@model WebdevelopmentPeriode3.Pages.Register
+
+<div class="card mx-auto" style="width: 18rem;">
+    <img class="card-img-top" src="Images/Senna.JPG" alt="Login image">
+    <div class="card-body">
+        <form method="post">
+            <label asp-for="Gebruiker.Username"></label>
+            <input asp-for="Gebruiker.Username"/><br>
+
+            <label asp-for="Gebruiker.Mail"></label>
+            <input asp-for="Gebruiker.Mail"/>
+            <span asp-validation-for="Gebruiker.Mail"></span>
+
+            <label asp-for="Gebruiker.Password"></label>
+            <input asp-for="Gebruiker.Password"/><br>
+            <button type="submit" style="margin-top: 10px;" asp-page-handler="Register">Login</button>
+        </form>
+    </div>
+</div>

@@ -48,6 +48,9 @@
             <button type="submit" class="btn-sm btn-dark fa fa-minus" style="border-radius: 50px;"></button>
         </form>
         <td>Prijs per stuk: @Model.Price.ToString("C")</td>
-        <td>Eindbedrag: @((Model.Counter1 * Model.Price).ToString("C"))</td>
+        <td>Totaal: @((Model.Counter1 * Model.Price).ToString("C"))</td>
     </tr>
 </table>
+
+<button type="submit">Alles betalen</button>
+
